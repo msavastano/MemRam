@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:columnCount="6"
+    android:rowCount="10"
+    android:clickable="true"
+    android:id="@+id/gameGrid"
+    android:orientation="horizontal"
+    android:background="#ffffb232">
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="1"
+        android:id="@+id/one_textView1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="2"
+        android:id="@+id/one_textView2"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="3"
+        android:id="@+id/one_textView3"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="4"
+        android:id="@+id/one_textView4"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="5"
+        android:id="@+id/one_textView5"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="6"
+        android:id="@+id/one_textView6"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="1"
+        android:id="@+id/two_textView1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="2"
+        android:id="@+id/two_textView2"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="3"
+        android:id="@+id/two_textView3"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="4"
+        android:id="@+id/two_textView4"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="5"
+        android:id="@+id/two_textView5"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="6"
+        android:id="@+id/two_textView6"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+
+
+    <TextView
+    android:layout_width="@dimen/grid_space"
+    android:layout_height="@dimen/grid_space"
+    android:textAppearance="@android:style/TextAppearance.Medium"
+    android:text="1"
+    android:id="@+id/three_textView1"
+    android:layout_gravity="center"
+    android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="2"
+        android:id="@+id/three_textView2"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="3"
+        android:id="@+id/three_textView3"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="4"
+        android:id="@+id/three_textView4"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="5"
+        android:id="@+id/three_textView5"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="6"
+        android:id="@+id/three_textView6"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="1"
+        android:id="@+id/four_textView1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="2"
+        android:id="@+id/four_textView2"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="3"
+        android:id="@+id/four_textView3"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="4"
+        android:id="@+id/four_textView4"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="5"
+        android:id="@+id/four_textView5"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="6"
+        android:id="@+id/four_textView6"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="1"
+        android:id="@+id/five_textView1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="2"
+        android:id="@+id/five_textView2"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="3"
+        android:id="@+id/five_textView3"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="4"
+        android:id="@+id/five_textView4"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="5"
+        android:id="@+id/five_textView5"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="6"
+        android:id="@+id/five_textView6"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="1"
+        android:id="@+id/six_textView1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="2"
+        android:id="@+id/six_textView2"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="3"
+        android:id="@+id/six_textView3"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="4"
+        android:id="@+id/six_textView4"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="5"
+        android:id="@+id/six_textView5"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="6"
+        android:id="@+id/six_textView6"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="1"
+        android:id="@+id/seven_textView1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="2"
+        android:id="@+id/seven_textView2"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="3"
+        android:id="@+id/seven_textView3"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="4"
+        android:id="@+id/seven_textView4"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="5"
+        android:id="@+id/seven_textView5"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="6"
+        android:id="@+id/seven_textView6"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="1"
+        android:id="@+id/eight_textView1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="2"
+        android:id="@+id/eight_textView2"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="3"
+        android:id="@+id/eight_textView3"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="4"
+        android:id="@+id/eight_textView4"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="5"
+        android:id="@+id/eight_textView5"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+    <TextView
+        android:layout_width="@dimen/grid_space"
+        android:layout_height="@dimen/grid_space"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="6"
+        android:id="@+id/eight_textView6"
+        android:gravity="center"
+        android:minWidth="@dimen/grid_space"
+        android:layout_columnWeight="1" />
+
+</GridLayout>
